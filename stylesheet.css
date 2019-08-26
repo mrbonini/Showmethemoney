@@ -13,9 +13,10 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;  
-    font-size: 35px;
+    font-size: 30px;
     font-family: Helvetica;
-    letter-spacing: .2rem;
+    letter-spacing: .15rem;
+    text-transform: uppercase;
 }
 
 .menu > button {
@@ -52,7 +53,7 @@ body {
 .box-1 {
     background-color: #D3D3D3;
     width: 50%;
-    height: 150%;
+    height: 300%;
     margin: 5%;
 }
 
@@ -60,7 +61,7 @@ body {
     background-color: white;
     width: 50%;
     margin: 5%;
-    height: 150px;
+    height: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
