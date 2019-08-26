@@ -15,12 +15,16 @@ body {
     align-items: center;  
     font-size: 35px;
     font-family: Helvetica;
+    letter-spacing: .2rem;
 }
 
 .menu > button {
     margin: 2%;
     height: 40px;
-    width: 230px;   
+    width: 280px;
+    font-size: 15px;
+    font-family: Helvetica;     
+    font-weight: bold;   
 }
 
 .menu > img {
@@ -77,7 +81,11 @@ body {
     height: 200px;
     height: max-content;
 }
-
+.programacao > h2 {
+    font-family: Helvetica;     
+    letter-spacing: .2rem;
+    font-weight: bold;  
+}
 .programacao > div {
     background-color: #363636;
     color: white;
@@ -97,6 +105,11 @@ body {
     width: 100%;
     margin: 0;
     background-color: #D3D3D3;
+}
+.parceiros > h2{
+    font-family: Helvetica;     
+    letter-spacing: .2rem;
+    font-weight: bold;  
 }
 
 .imagem {
@@ -139,5 +152,8 @@ body {
     width: 50px;
     height: 50px;
     margin: 10px;
+    font-family: Helvetica;     
+    letter-spacing: .2rem;
+    font-weight: bold;  
 
 }
