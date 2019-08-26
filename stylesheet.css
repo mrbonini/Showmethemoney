@@ -1,0 +1,140 @@
+body {
+    width: 100%;
+    margin: 0;
+    
+}
+
+.menu {
+    height: fit-content;
+    width: auto;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+    font-size: 35px;
+    font-family: Helvetica;
+}
+
+.menu > button {
+    margin: 2%;
+}
+
+.menu > img {
+    height: 200px;
+    width: 70%;
+    margin: 2%;
+    
+}
+.corpo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.descricao {
+    height: max-content;
+    background-color: grey;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: max-content;
+}
+
+.box-1 {
+    background-color: grey;
+    width: 50%;
+    height: 75%;
+    margin: 5%;
+}
+
+.box-2 {
+    background-color: white;
+    width: 50%;
+    margin: 5%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-2 > img {
+    width: 100%;
+    height: 100%;
+}
+
+.programacao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #44545a;
+    color: white;
+    width: 100%;
+    height: 200px;
+    height: max-content;
+}
+
+.programacao > div {
+    background-color: #44545a;
+    color: white;
+
+}
+
+.programacao > div > div {
+    background-color: #44545a;
+}
+
+.parceiros {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 250px;
+    width: 100%;
+    margin: 0;
+    background-color: grey;
+}
+
+.imagem {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.imagem > span {
+    background-color: white;
+    width: 150px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.maps {
+    background-color: white !important;
+    height: 150px;
+    width: 25%;
+    margin: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black !important;
+    border: 1px solid black !important;
+}
+
+.footer {
+    background-color: grey;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+}
+
+.footer > div > img {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+
+}
