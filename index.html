@@ -37,7 +37,7 @@
       </div>
 
     </div>
-    
+
     <div class="programacao">
       <h2>PROGRAMAÇÃO</h2>
       <div class="descricao">
@@ -73,7 +73,10 @@
 
     <div class="programacao">
       <h2>ONDE</h2>
-      <div class="maps">GOOGLE MAPS</div>
+      <div class="maps">GOOGLE MAPS
+        
+        
+      </div>
     </div>
   </main>
 
@@ -84,6 +87,24 @@
       <img src="./photos/instagram.png" alt="logo instagram">
     </div>
   </footer>
+
+  <!-- SCRIPTS -->
+  <div id="googleMap" style="width:100%; height:400px;"></div>
+
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA6P-weflfaiL8oMZCoOzMyi8U6i0MMp-I&callback=initMap"
+  type="text/javascript"></script>
+  <script>
+    function myMap() {
+      var mapProp = {
+        // Ajustar Coordenadas de acordo com o lugar selecionado
+        center: new google.maps.LatLng(51.508742, -0.120850),
+        zoom: 5,
+      };
+      var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
+    }
+  </script>
+
+
 </body>
 
 </html>
