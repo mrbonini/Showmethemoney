@@ -104,6 +104,9 @@ body {
     background-color: #363636;
 }
 
+.programacao > iframe {
+    margin: 15px;
+}
 .parceiros {
     display: flex;
     flex-direction: column;
