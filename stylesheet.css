@@ -2,6 +2,7 @@ body {
     width: 100%;
     margin: 0;
     
+    letter-spacing: .1rem; 
 }
 
 .menu {
@@ -70,15 +71,25 @@ body {
     flex: 1 2 300px;
 }
 
+.round-img {
+    border-radius: 50%
+}
+
 .box-2 {
     box-sizing: border-box;
     background-color: #333399;
     margin: 5%;    
     display: flex;
-    align-self: flex-end;
+    align-self: auto;
     flex: 2 1 300px;
 }
-
+.box-2 > p, label {
+    width: 100%;
+    text-align: center;
+}
+.box-2 > label {
+    margin-bottom: 2%;
+}
 .box-2 > img {
     width: 100%;
 }
@@ -94,10 +105,11 @@ body {
     height: fit-content;
     font-family: Helvetica;
 }
-.programacao > h2 {
+.programacao > h1 {
     font-family: Helvetica;     
     letter-spacing: .2rem;
     font-weight: bold;  
+    text-align: center;
 }
 .programacao > div {
     background-color: #2F2F2F;
@@ -107,7 +119,6 @@ body {
     justify-content: center;
 
 }
-
 .programacao > div > div {
     background-color: #2F2F2F;
     display: flex;
@@ -115,22 +126,56 @@ body {
     justify-content: center;
     align-items: center;
 }
-
 .programacao > div > div > ul {
     display: flex;
     flex-direction: column;
     align-items: center;
     list-style: none;
 }
-
 .programacao > div > div > ul > li {
     margin: 10px;
 }
-
 .programacao > iframe {
     margin: 15px;
     width: 80%;
 }
+
+.palestrantes {
+    display: flex;
+    height: fit-content;
+    flex-direction: column;
+    align-items: center;
+    background-color: #2F2F2F;
+    color: white;
+    width: 100%;
+    height: fit-content;
+    font-family: Helvetica;
+}
+.palestrantes > h1 {
+    font-family: Helvetica;     
+    letter-spacing: .2rem;
+    font-weight: bold;  
+    text-align: center;
+}
+.palestrantes > div {
+    background-color: #2F2F2F;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.palestrantes > div > div {
+    background-color: #2F2F2F;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.disclaimer {
+    font-size: small;
+}
+
 .parceiros {
     width: 100%;
     height: 100%;
@@ -142,10 +187,11 @@ body {
     margin: 0;
     background-color: #D3D3D3;
 }
-.parceiros > h2{
+.parceiros > h1{
     font-family: Helvetica;     
     letter-spacing: .2rem;
     font-weight: bold;  
+    text-align: center;
 }
 .imagem {
     align-items: center;
