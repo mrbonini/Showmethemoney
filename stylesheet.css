@@ -5,10 +5,8 @@ body {
 }
 
 .menu {
-    height: fit-content;
-    width: auto;
-    background-color: black;
-    color: white;
+    height: max-content;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -18,6 +16,7 @@ body {
     letter-spacing: .15rem;
     text-transform: uppercase;
     flex-shrink: 1 !important;
+    background-color: #cccccc;
 }
 /* 1em = 12pt = 16px = 100% */
 .menu > button {
