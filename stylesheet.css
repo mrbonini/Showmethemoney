@@ -152,8 +152,8 @@ body {
     display: flex;
     width: 90%;
     flex-shrink: 1;
-    justify-content: flex-end;
-    height: 20em;
+    justify-content: center;
+    height: 10em;
 }
 .parceiros > div > a > img {
     width: 10em;
