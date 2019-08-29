@@ -82,6 +82,7 @@ body {
     display: flex;
     align-self: auto;
     flex: 2 1 300px;
+    justify-content: center;
 }
 .box-2 > p, label {
     width: 100%;
@@ -91,8 +92,8 @@ body {
     margin-bottom: 2%;
 }
 .box-2 > img {
-    align-self: center;
-    width: 60%;
+    width: 40%;
+    justify-content: center;
 }
 
 .programacao {
