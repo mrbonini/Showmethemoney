@@ -200,21 +200,18 @@ body {
 
 .parceiros-container {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
 
 }
 
-.parceiros-container > div > a {
-    display: flex;
-    align-items: center;
+.veiranos {
+    width: 100px;
     height: 100px;
-    width: 200px;
-    margin: 50px;
 }
 
-.parceiros-container > div > a > img {
-    display: flex;
-    width: 200px;
+.gruposinal {
+    width: 150px;
+    height: 100px
 }
 
 .footer {
