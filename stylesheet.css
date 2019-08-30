@@ -179,32 +179,44 @@ body {
 
 .parceiros {
     width: 100%;
-    height: 100%;
+    height: fit-content;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-    height: fit-content;
     margin: 0;
     background-color: #D3D3D3;
+    flex-wrap: wrap;
 }
+
+
 .parceiros > h1{
     font-family: Helvetica;     
     letter-spacing: .2rem;
     font-weight: bold;  
     text-align: center;
+
 }
-.imagem {
-    align-items: center;
+
+.parceiros-container {
     display: flex;
-    width: 90%;
-    flex-shrink: 1;
-    justify-content: center;
-    height: 10em;
+    justify-content: space-evenly;
+
 }
-.parceiros > div > a > img {
-    width: 10em;
+
+.parceiros-container > div > a {
+    display: flex;
+    align-items: center;
+    height: 100px;
+    width: 200px;
+    margin: 50px;
 }
+
+.parceiros-container > div > a > img {
+    display: flex;
+    width: 200px;
+}
+
 .footer {
     background-color: #D3D3D3;
     width: 100%;
