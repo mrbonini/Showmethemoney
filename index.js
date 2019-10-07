@@ -6,8 +6,7 @@ fetch(API_URL, {
   method: 'GET',
   mode: 'cors',
   headers: {
-    "s_token": "d0750f54e88d664128e4f19b7b6369418c9258c538c319029bda6e659bf260fc",
-    "Host": "api.sympla.com.br"
+    "s_token": "d0750f54e88d664128e4f19b7b6369418c9258c538c319029bda6e659bf260fc"
     }
 })
   .then(response => response.text())
